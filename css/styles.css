@@ -14,3 +14,9 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
+
+.cuadrado {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}

@@ -22,3 +22,11 @@ heartClass[0].addEventListener("click", function () {
 		heartClass[0].innerText = "🖤";
 	}
 });
+
+//getElementById
+const cuadrado = document.getElementById("cuadrado");
+
+cuadrado.addEventListener('click', function() {
+  cuadrado.style.backgroundColor = 'tomato'
+})
+
