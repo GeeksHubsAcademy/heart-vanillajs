@@ -1,0 +1,12 @@
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-3 {
+  font-size: 5rem;
+}
