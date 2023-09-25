@@ -9,3 +9,16 @@ heart.addEventListener("click", function () {
 		heart.innerText = "🖤";
 	}
 });
+
+
+// getElementsByClassName
+const heartClass = document.getElementsByClassName("heart-class");
+
+heartClass[0].addEventListener("click", function () {
+  console.log(heartClass[0].innerText);
+	if (heartClass[0].innerText === "🖤") {
+		heartClass[0].innerText = "❤️";
+	} else {
+		heartClass[0].innerText = "🖤";
+	}
+});
