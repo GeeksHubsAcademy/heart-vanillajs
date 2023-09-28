@@ -38,6 +38,12 @@ nombreUsuario.addEventListener('input', () => {
 	console.log(nombreUsuario.value);
 })
 
+// nombreUsuario.addEventListener('keydown', (event) => {
+// 	if (event.key === "Enter") {
+//     console.log('enteeeeeeeeeeeeer');
+//   }
+// })
+
 // const nombreUsuario = document.getElementById('nombreUsuario')
 
 // nombreUsuario.addEventListener('input', () => {	
@@ -45,5 +51,13 @@ nombreUsuario.addEventListener('input', () => {
 
 // 	console.log(localStorage.getItem('edad'));
 // })
+
+// INPUT COLOR
+const colorSeleccionado = document.getElementById('colorSeleccionado')
+const caja1 = document.getElementById('caja1')
+
+colorSeleccionado.addEventListener('input', () => {
+	caja1.style.backgroundColor = colorSeleccionado.value;
+})
 
 

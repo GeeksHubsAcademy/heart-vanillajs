@@ -20,3 +20,9 @@ body {
   width: 100px;
   border: 1px solid black;
 }
+
+.caja {
+  height: 50px;
+  width:  50px;
+  border: 1px solid black
+}
